@@ -32,7 +32,8 @@
                 this.Plugin.ClientApplication.SendKeyboardShortcut(VirtualKeyCode.KeyI);
             }
             this._toggleState = !this._toggleState;*/
-            this.Plugin.ClientApplication.SendKeyboardShortcut(VirtualKeyCode.KeyD, ModifierKey.Control | ModifierKey.Shift);
+            this.Plugin.ClientApplication.SendKeyboardShortcut(VirtualKeyCode.KeyD, ModifierKey.Control | ModifierKey.Shift); //Deny call
+            this.Plugin.ClientApplication.SendKeyboardShortcut(VirtualKeyCode.KeyH, ModifierKey.Control | ModifierKey.Shift); // hang up
             //this.ActionImageChanged();
         }
     }
