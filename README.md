@@ -6,7 +6,7 @@ Loupedeck Plugin for Microsoft Teams
 ### Colors (RGB)
 <ul>
 <li>green: 0,111,12</li>
-<li>red: 255,25.0</li>
+<li>red: 255,25,0</li>
 <li>grey: 150,150,150</li>
 <li>blue: 54,176,239</li>
 <li>orange: 255,160,0</li>
