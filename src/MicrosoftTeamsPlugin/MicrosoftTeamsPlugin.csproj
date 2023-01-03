@@ -55,6 +55,7 @@
     <Compile Include="Actions\AcceptCall.cs" />
     <Compile Include="Actions\AdjustZoom.cs" />
     <Compile Include="Actions\MuteMic.cs" />
+    <Compile Include="Actions\Screenshare.cs" />
     <Compile Include="Actions\ToggleCam.cs" />
     <Compile Include="Actions\RaiseHand.cs" />
     <Compile Include="Actions\DenyCall.cs" />
@@ -82,6 +83,8 @@
     <EmbeddedResource Include="Actions\MuteMic1.png" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Actions\Screenshare0.png" />
+    <EmbeddedResource Include="Actions\Screenshare1.png" />
     <EmbeddedResource Include="Actions\ToggleCam0.png" />
     <EmbeddedResource Include="Actions\ToggleCam1.png" />
     <EmbeddedResource Include="Actions\AcceptCall0.png" />
