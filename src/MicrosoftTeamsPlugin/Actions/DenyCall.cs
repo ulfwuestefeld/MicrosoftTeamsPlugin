@@ -9,7 +9,7 @@
         private readonly String _image0ResourcePath;
         //private readonly String _image1ResourcePath;
 
-        public DenyCall() : base(displayName: "Deny call", description: "Denies a call", groupName: "Appointments, calls and calender")
+        public DenyCall() : base(displayName: "Deny/hang up call", description: "Denies a call or hangs up", groupName: "Appointments, calls and calender")
         {
             this._image0ResourcePath = EmbeddedResources.FindFile("DenyCall0.png");
             //this._image1ResourcePath = EmbeddedResources.FindFile("DenyCall1.png");
